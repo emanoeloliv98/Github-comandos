@@ -41,3 +41,10 @@ Caso eu tenha criado uma branch e tenha o master e queira unir esses arquivos na
 se voce quiser deletar uma branch:
 git branch -D e o nome da branch
 
+git init - inicia a linha do tempo
+git add - adiciona ou atualiza mudanças para irem para a linha do tempo
+git log - visualiza os pontos na linha do tempo
+
+
+caso eu queira adicionar um arquivo do meu repositorio local sem ter que clonar um repositorio remoto eu devo fazer a seguinte primeiro criar um repositorio remoto dentro do github após isso eu tenho que iniciar um git para fazer minha pasta ser uma pasta git
+para então git add. e seguir os passou do site github
