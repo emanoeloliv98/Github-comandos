@@ -1,0 +1,43 @@
+Github.txt
+
+
+Como clonar um repositorio dentro do Github:
+- após copiar o HTTP dentro do site você ira abrir o terminal e usar o comando 
+git clone "o endereço que você copiou"
+
+
+comandos dentro do terminal
+
+git status (ele mostra o que foi ou não modificado)
+
+git diff (mostra somente os que foram modificados)
+
+git add: (adiciona dentro do seu repositorio local)
+-U adiciona tudo que foi modificado
+. adiciona tudo dentro da pasta
+também pode adicionar pelo nome do arquivo
+
+adicionar no repositorio remoto:
+
+git commit -m "o nome da mensagem que quer que seja exibida no repositorio remoto" 
+
+git push origin master
+nome do usuario:
+senha do usuario:
+
+
+
+git log (te da um mapa com todos os commites)
+caso você queira retornar para um commit especifico você pode usar 
+checkout (e o nome do commit)
+
+git branch - informa em que branch você está localizado
+git pull atualiza a branch atual
+git fetch - atualiza todas as branchs
+
+Caso eu tenha criado uma branch e tenha o master e queira unir esses arquivos na mesma linha podemos fazer através do git merge que pode unir uma linha paralela a minha linha principal 
+
+
+se voce quiser deletar uma branch:
+git branch -D e o nome da branch
+
